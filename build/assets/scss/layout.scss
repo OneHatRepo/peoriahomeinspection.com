@@ -1,6 +1,167 @@
+#header {
+	display: block;
+	width: 100%;
+}
 #topBar {
 	display: block;
 	width: 100%;
 	height: 5px;
 	background: #323639;
 }
+
+
+.contentArea {
+	position: relative;
+	display: block;
+	padding: 0 0 50px;
+}
+
+section {
+	padding: 20px 0;
+}
+section.ltGreen {
+	background: #c9dddc;
+}
+
+
+footer .topBar {
+	position: relative;
+	display: block;
+	height: 15px;
+	color: #fff;
+	background: #215AA5;
+}
+#footerContainer {
+	position: relative;
+	display: block;
+	min-height: 405px;
+	padding-top: 70px;
+	background: #393939;
+}
+	#footerContainer .N {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 96px;
+		top: 0;
+		z-index: 0;
+	}
+	#footerContainer .S {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 300px;
+		bottom: 0;
+		z-index: 0;
+	}
+	#footer .contactInfo {
+		position: relative;
+		display: block;
+		width: 300px;
+		margin: 0 auto;
+		z-index: 100;
+		font-family: Montserrat, sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+	}
+		#footer .contactInfo a:link, #footer .contactInfo a:visited {
+			color: #a6a6a6;
+			text-decoration: none;
+		}
+		#footer .contactInfo a:hover, #footer .contactInfo a:active {
+			color: #fff;
+			text-decoration: none;
+		}
+		#footer ul {
+			position: relative;
+			display: block;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+		}
+		#footer li {
+			list-style: none;
+			text-align: left;
+		}
+	#siteBy {
+		position: relative;
+		display: block;
+		width: 200px;
+		margin: 20px 0;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	#footerContainer p {
+		position: relative;
+		display: block;
+		color: #a6a6a6;
+		font-size: 12px;
+		text-align: center;
+	}
+		#footerContainer p a:link, #footerContainer p a:visited  {
+			color: #ccc;
+			text-decoration: none;
+		}
+		#footerContainer p a:hover, #footerContainer p a:active  {
+			color: #fff;
+			text-decoration: none;
+		}
+		#footerContainer p.big {
+			font-size: 18px;
+			margin-bottom: 0;
+		}
+
+
+
+/*	md Layout	*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	
+	
+}
+/* */
+
+
+/*	sm Layout	*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	
+	
+}
+/* */
+
+
+/*	xs Layout	*/
+@media only screen and (max-width: 767px) {
+
+	
+	.xs-hide {
+		display: none !important;
+	}
+	
+}
+/* */
+
+
+
+	
+/*	Retina Global	*/
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi) {
+	
+	
+}
+/* */
+
+
+/*	xs Layout RETINA	*/
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (max-width: 767px) and (min-resolution: 192dpi) {
+
+	
+}
+/* */
