@@ -1,0 +1,54 @@
+# Ignore block builders
+public/packages/block_designer
+public/packages/block_builder
+
+# Ignore composer stuff
+composer.lock
+/vendor/
+
+# Ignore concrete5 stuff
+/public/.htaccess
+/public/concrete
+/public/application/files
+/public/application/config
+
+# Ignore cPanel stuff
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.cache/
+.config/
+.cpanel/
+.cphorde/
+.lastlogin
+.local/
+.spamassassin/
+.spamassassinboxenable
+.spamassassinenable
+.ssh/
+.trash/
+access-logs
+/etc
+/logs
+/mail
+/perl5
+/public_ftp
+/public_html
+/repo
+/ssl
+/tmp
+
+# Ignore developer stuff
+info.php
+/test
+/.idea
+/node_modules
+/.env
+/public/mix-manifest.json
+/phpunit.xml
+/build/node_modules
+/build/package-lock.json
+/build-mcbtrust/node_modules
+/.phpunit.*
+/public/hot
