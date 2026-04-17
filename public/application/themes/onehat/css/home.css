@@ -1,0 +1,1 @@
+*::-ms-backdrop, #hero #flameContainer { display: none; } /* IE11 doesn't display the flames correctly. Just hide them. */

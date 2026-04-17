@@ -1,0 +1,95 @@
+body {
+    font-family: "acumin-pro", 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 26px;
+	color: #000;
+}
+
+.h1, h1 {
+	font-family: 'cardea', 'Open Sans', serif;
+	font-weight: 700;
+	font-size: 45px;
+	color: #6c6c6c;
+	text-align: left;
+	line-height: 45px;
+    margin-top: 0;
+	margin-bottom: 25px;
+}
+.h2, h2 {
+	font-weight: 700;
+	font-size: 30px;
+	color: #000;
+	letter-spacing: -0.0125em;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+}
+.h3, h3 {
+	font-weight: 700;
+	font-size: 20px;
+	color: #364a48;
+	letter-spacing: -0.0125em;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.h4, h4 {
+	font-weight: 700;
+	font-size: 20px;
+	color: #364a48;
+	letter-spacing: -0.0125em;
+	line-height: 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.h5, h5 {
+	font-weight: 700;
+	font-size: 20px;
+	color: #364a48;
+	letter-spacing: -0.0125em;
+	line-height: 30px;
+	padding: 20px 0 10px;
+}
+div[data-field-type="label"] {
+	font-weight: 700;
+	font-size: 30px;
+	color: #000;
+	letter-spacing: -0.0125em;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+}
+p {
+	margin: 0 0 1em;
+}
+	p.alert, p.err {
+		padding-top: 1em;
+		color: red;
+	}
+
+span.big {
+	font-size: 30px;
+	line-height: 32px;
+}
+a {
+	margin: 0;
+	padding: 0;
+	color: #23a6a6;
+}
+	a:link, a:visited {
+		color: #23a6a6;
+	}
+	a:hover, a:active {
+		color: #10e9e9;
+	}
+	#footer a:link, #footer a:visited {
+		color: #000;
+		text-decoration: none;
+	}
+	#footer a:hover, #footer a:active {
+		color: #10e9e9;
+		text-decoration: none;
+	}
+		#footer .h2 a:link, #footer .h2 a:visited {
+			text-decoration: none;
+		}

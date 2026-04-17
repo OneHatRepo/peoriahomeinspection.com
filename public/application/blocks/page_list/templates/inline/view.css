@@ -1,0 +1,26 @@
+
+/* BEGIN SKOTE MOD */
+div.ccm-block-page-list-page-entry {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+}
+div.ccm-block-page-list-page-entry-horizontal {
+    /*
+    display: table;
+    width: 100%;
+    */
+    display: inline-block;
+    width: 33%;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    div.ccm-block-page-list-page-entry-horizontal {
+        width: 49%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    div.ccm-block-page-list-page-entry-horizontal {
+        width: 99%;
+    }
+}
+/* END MOD */
